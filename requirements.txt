@@ -1,0 +1,21 @@
+# Core Web Framework & Server
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+
+# AI & Orchestration
+langchain>=0.2.14
+langchain-community>=0.2.12
+langchain-core>=0.2.35
+langchain-groq>=0.1.9
+langchain-chroma>=0.1.3
+
+# Vector Database & Embeddings
+chromadb>=0.5.5
+sentence-transformers>=3.0.1
+torch>=2.2.0
+
+# Document Generation (FPDF successor, provides 'from fpdf import FPDF')
+fpdf2>=2.7.9

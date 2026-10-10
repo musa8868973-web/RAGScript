@@ -1,0 +1,40 @@
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Vector Database Persistent Storage
+chroma_data/
+*.chroma
+
+# Dependencies & Build Artefacts
+node_modules/
+dist/
+.output/
+.tanstack/
+
+# Python Runtime Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Output PDF & Generated Artifacts
+*.pdf
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
